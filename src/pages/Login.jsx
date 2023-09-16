@@ -26,7 +26,7 @@ const Login = () => {
         <span className="title">Iniciar Sesión</span>
         <form onSubmit={handleSubmit}>
           <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
+          <input type="password" placeholder="contraseña" />
           <button>Iniciar</button>
           {err && <span>Algo salió mal</span>}
         </form>
